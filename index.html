@@ -4,3 +4,40 @@ git add file name
 m - modified
 inorder to add all the modified files in a repository, we use commad
 git add . 
+
+now commit 
+git commit -m "message"
+
+now push
+note:
+earlier we had a repository(the one we copied the link for the repo)
+so we were able to easily push using git push command.
+
+but here the repo is not present in github, we need to push or update the entire folder or repo into git now
+
+
+hence now create a new repo in github
+now connect the newly created repo to vscode
+
+usually we will be given a command in github to connect, the git remote command
+
+ie. git remote add origin link 
+
+now vs code is connected to the origin.
+
+git branch
+=> master
+
+becz both main and master names were used as branch names, but are not same, u cannot push 
+main and master with anyone of the names. 
+
+either push with the respective names or change the master branch name to main
+
+to change branch name
+git branch -M main
+
+git branch
+=> main 
+
+now u can perform the command,
+git push origin main 
